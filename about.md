@@ -7,43 +7,89 @@ order: 3
 ---
 
 
-<p align="center"><img src="http://ir_public.s3.amazonaws.com/projects/ignite/ignite-logo-red-on-white-1000w.jpg" alt="header image" width="500px"></p>
+<div class="container">
+			<img class="top" src="./images/print_icon.png" onclick="myFunction()" title="Click to Print Page">
+			<header>
+				<h4><img rel="favicon" src="./images/mango.png" type="image" height="60" width="60">CIS 311 Web Development</h4>
+				
+			<h6><p id="demo"></p>
+				<script>
+					document.getElementById("demo").innerHTML = Date();
+				</script></h6>
+			</header>
 
-<a href="https://badge.fury.io/js/ignite-cli" target="_blank"><img src="https://badge.fury.io/js/ignite-cli.svg" alt="npm version" height="20"></a>
-<a href="http://community.infinite.red/">
-  <img src="https://infiniteredcommunity.herokuapp.com/badge.svg">
-</a>
+			<ul class="tab">
+				<li>
+					<a href="./home.html" >Home</a>
+				</li>
+				<li>
+					<a href="./aboutus.html">About Us</a>
+				</li>
+				<li>
+					<a href="./overview.html">Course Overview</a>
+				</li>
+				<li>
+					<a href="./work.html">See Our Work</a>
+				</li>
+				<li><li></li>
 
-# Ignite CLI
+				<form id="tfnewsearch" method="get" action="http://www.google.com">
+					<input type="text" class="tftextinput" name="q" size="21" maxlength="120">
+					<input type="submit" value="search" class="tfbutton" title="Search Google" title="Search Google">
+				</form>
 
-<p align="center">
-  :fire: The hottest CLI for React Native: boilerplates, plugins, generators, and more. :fire:
-  <br/>
-</p>
+			</ul>
+			<h1>
+			<script>
+				countdown();
+			</script></h1>
+			
+				<body>
+					<h2>About Us</h2>
+					<div>
+						<p>
 
-<img width="794" alt="screen shot 2018-12-14 at 9 20 31 am" src="https://user-images.githubusercontent.com/1479215/50017668-a04c0200-ff81-11e8-9b61-a1ae28363798.png">
+							<img src="images/Julia.jpg" class="author"
+							alt="Julia Daly" align="right" height="200" width="200" >
 
-### Why Ignite CLI?
-
-* **Easily spin up a new React Native app** with best practices built-in
-* **No runtime!** This is a developer tool only, not a library you have to depend on and figure out how to upgrade
-* **An ever-expanding list of [boilerplates](./BOILERPLATES.md) and [plugins](./PLUGINS.md)** to jump-start your app
-* **An amazing [community](http://community.infinite.red)** of other Ignite / React Native developers when you need help
-* **Battle tested** and used every day by the developers at Infinite Red and thousands of developers around the world
-* **Works on macOS, Windows, and Linux** because not all React Native developers are on one platform
-* **Saves an average of two weeks** on your React Native development
-
-And you also get (by default) all of the sweet, sweet goodness of [our default boilerplate, Bowser](https://github.com/infinitered/ignite-bowser), or choose [one of many others](./BOILERPLATES.md).
-
-> Ignite saved me a few weeks (if not months) getting started with React Native.
-
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-<!--
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
--->
+							<ul>
+								<li>
+									Name: Julia Daly
+								</li>
+								<li>
+									Major: Computer and Information Sciences
+								</li>
+								<li>
+									Company: Alpha
+								</li>
+								<li>
+									Hobbies: Long walks on the beach
+								</li>
+								<li>
+									From: Bealeton, Va
+								</li>
+							</ul>
+						</p>
+					
+					<p>
+						<img src="images/Ola.jpg" class="author" alt="Oladokun Ekundayo" align="right" height="200" width="200" >
+						<ul>
+							<li>
+								Name: Oladokun Ekundayo
+							</li>
+							<li>
+								Major: Computer and Information Sciences
+							</li>
+							<li>
+								Company: Band
+							</li>
+							<li>
+								Hobbies: Music, sports, computers
+							</li>
+							<li>
+								From: Baltimore, MD
+							</li>
+						</ul>
+					</p>
+					</div>
+		</div>
