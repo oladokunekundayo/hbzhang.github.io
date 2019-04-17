@@ -5,7 +5,7 @@ description: Pursue your dream
 order: 2
 ---
 
-
+<div>
 			<img class="top" src="./images/print_icon.png" onclick="myFunction()" title="Click to Print Page">
 			<header>
 			<h4><a href = "./home.html">
