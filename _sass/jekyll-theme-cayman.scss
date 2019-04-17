@@ -376,3 +376,278 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+img.top{
+
+	top: 10px;
+	float: right;
+	width: 90px;
+	height: 80px;
+}
+div.container {
+	width: 100%;
+	border: 2px solid black;
+	height: 100%;
+}
+html {
+	background: linear-gradient(green, yellow, red);
+	background-repeat: none;
+	background-size: 100%;
+	padding: 25px 105px 25px 90px;
+	height: 80em;
+}
+header {
+	padding: 10px;
+	background: linear-gradient(red, gold, yellow, green);
+	font-size: 40px;
+}
+h6 {
+	font-size: 15px;
+
+}
+ul.tab {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-bottom: 2px solid black;
+	height:50px;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li:hover > a {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+body {
+	background-color: white;
+	height: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
+	padding: 1em;
+	color: black;
+	clear: left;
+	text-align: left;
+}
+
+#tfnewsearch {
+	float: right;
+}
+.tftextinput {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 1px solid green;
+	border-right: 0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.tfbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 70px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px black;
+	border-right: 0px;
+	background: #80ff80;
+	background: -webkit-gradient(linear, left top, left bottom, from(#80ff80), to(green));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #56ff70;
+	background: -webkit-gradient(linear, left top, left bottom, from(#009S5cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+	border: 0;
+}
+.tfclear {
+	clear: both;
+}
+p {
+	padding: 5px;
+}
+
+section{
+	border: 4px solid gray;
+	border-radius: 30px;
+	padding: 5px;
+
+
+}
+	input {
+		width: 15em;
+		margin:20px;
+		;}
+	input:required, input[required] {
+		border: 2px solid red;
+	}
+	input:valid {
+		border: 1px solid black;
+	}
+	input:invalid {
+		box-shadow: none;
+	}
+	h3{
+
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+
+}
+
+
+div {
+	width: 60%;
+}
+aside {
+
+	border-radius: 30px;
+	background-color: white;
+	float: right;
+	margin-right: 2%;
+	width: 450px;
+	padding: 15px;
+}
+h1 {
+	font-size: 20px;
+	animation: moveright 3s 2s infinite ease-in-out alternate;
+}
+@keyframes moveright{
+from {
+	margin-left: 20%;
+	color: black;
+}
+to {
+	margin-left: 40%;
+	color: white;
+}
+;
+
+}
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 2px;
+	font-size: 2em;
+}
+
+article {
+
+	padding: 1em;
+	overflow: hidden;
+}
+
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	width: 90%;
+	overflow: hidden;
+	transition: 0.6s ease-in-out;
+	opacity: 0;
+}
+
+div.panel.show {
+	opacity: 1;
+	max-height: 500px;
+}
+
+img.author:hover {
+	transform: skewX(-2deg);
+	-webkit-transform: skewX(-2deg);
+}
+
+button.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 80%;
+	border: none;
+	border-radius: 10px;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+
+
+}
+
+button.accordion.active, button.accordion:hover {
+	background: linear-gradient(green, yellow, red);
+	color: black;
+	font-weight: bold;
+}
+
+button.accordion:after {
+	content: '\02795';
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+}
+
+button.accordion.active:after {
+	content: "\2796";
+}
+a.link3:hover {
+	color: green;
+}
+ul.tab.home.active, ul.tab.home:hover{
+	background: black;
+}
+
+
+
