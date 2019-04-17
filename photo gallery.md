@@ -5,7 +5,7 @@ description: Pursue your dream
 order: 2
 ---
 
-<div class="container">
+
 			<img class="top" src="./images/print_icon.png" onclick="myFunction()" title="Click to Print Page">
 			<header>
 			<h4><a href = "./home.html">
@@ -61,7 +61,5 @@ order: 2
 
 			</article>
 
-		</div>
-		<footer>
-			Copyright &copy; Daly-Ekundayo 2016
-		</footer>
+		
+		
